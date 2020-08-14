@@ -167,7 +167,7 @@
 
 .fix-box {
     position: fixed;
-    top: 80%;
+    top: 85%;
     right: 1%;
     display: flex;
     background-color: red;
