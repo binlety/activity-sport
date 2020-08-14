@@ -221,10 +221,8 @@
 
 .mask img {
     position: absolute;
-    top: 2%;
-    right: 8%;
-    /* width: 45%;
-    height: 28%; */
+    top: 0;
+    right: 2%;
     color: #ccc;
     display: block;
     width:3rem;
