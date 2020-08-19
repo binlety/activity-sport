@@ -63,8 +63,8 @@
                                 src="image/banner1.jpg" class="d-block w-100" alt="..."></a>
                     </div>
                     <div class="carousel-item">
-                        <a href='https://www.uphoto.cn/album_ia14892425.html'><img src="image/banner2.jpg"
-                                class="d-block w-100" alt="..."></a>
+                        <a href='https://play.yunxi.tv/pages/f702947a844e479980d8719a277da09e#/'><img
+                                src="image/banner2.jpg" class="d-block w-100" alt="..."></a>
                     </div>
                     <div class="carousel-item">
                         <a href='http://m.zhaojiafang.com/common/articledetail?article_id=3301'><img
@@ -212,8 +212,9 @@
                         })
                         _this.append(html)
                         if (res.hasmore == 0) {
-                            $("." + cur_class).hide()
-                            $("." + cur_class).next().show()
+                            var classname = cur_class.split(' ')[1]
+                            $("." + classname).hide()
+                            $("." + classname).next().show()
                         }
                     } else {
 
